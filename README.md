@@ -1,7 +1,7 @@
 # RarFS - Fuse extension for mounting rar files
 
 ## Build dependencies
-* libfuse
+* libfuse-dev
 
 ## Build
 
