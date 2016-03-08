@@ -1,5 +1,7 @@
 # RarFS - Fuse extension for mounting rar files
 
+RarFS is a Fuse module for mounting an uncompressed rar archive as a filesystem. This is a good idea for eg. video streaming where the media file is in a rar archive and you don't want to use a lot of extra diskspace, and time, for extracting and then streaming.
+
 ## Build dependencies
 * libfuse-dev
 
