@@ -1,0 +1,12 @@
+Source: rarfs
+Section: main
+Priority: extra
+Maintainer: Morten Hekkvang <morten.hekkvang@gmail.com>
+Build-Depends: debhelper (>=9), libfuse-dev
+Standards-Version: 3.9.4
+Homepage: https://www.github.com/artheus/rarfs
+
+Package: rarfs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Fuse extension for mounting uncompressed rar archives
